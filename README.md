@@ -1,16 +1,18 @@
-![MrHackfreaks](https://telegra.ph/file/4538e359834b77487e88b.jpg) 
-# MrHackfreaksRobot
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-green)](https://telegram.dog/HackfreaksUpdates)
+![Indianofficial_Robot](https://telegra.ph/file/4538e359834b77487e88b.jpg) 
+# Indianofficial_Robot
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-green)](https://telegram.dog/IndianofficialUpdates)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RoshanHacker/Hackfreaks.git)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a Marie fork, MrHackfreaks evolved further and was built to be more robust. 
+Originally a Marie fork, Indianofficial_Robot evolved further and was built to be more robust. 
 
-Can be found on telegram as [MrHackfreaks](https://t.me/indianbotupdare).
+Original Repository of this Bot is [Here](https://github.com/swatv3nub/Hackfreaks)
 
-The Support group can be reached out to at our [SupprtChat](https://t.me/HackfreaksSupport), where you can ask for help about MrHackfreaksRobot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+Can be found on telegram as [Indian Official](https://t.me/Indianofficial_Robot).
+
+The Support group can be reached out to at our [SupportChat](https://t.me/IndianofficialSupport), where you can ask for help about Indianofficial_Robot,discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 
 
