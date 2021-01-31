@@ -58,19 +58,20 @@ Hosted in Heroku with a SQLAlchemy Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Our Channel](t.me/CyberStock).
-
+✗ [Updates Channel](t.me/indianbotupdate).
+✗ [Support Chat](t.me/indianbotsupport)
 ✗ [Repository](github.com/swatv3nub/Hackfreaks)
 
+Maintained By @Roshan_xD
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="Contact Owner", url="https://t.me/Roshan_xD"
+            text="Our Dev", url="https://t.me/ProjectHackfreaks"
         ),
-        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/MrHackfreaksRobot?startgroup=true"),
+        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/Indianofficial_Robot?startgroup=true"),
     ]
 ]
 
