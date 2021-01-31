@@ -54,22 +54,21 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Pro group management bot, with some Special features.
  
-Hosted in Heroku with Mongo Database,
+Hosted in Heroku with a SQLAlchemy Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/HackfreaksUpdates).
-✗ [Support Group](t.me/HackfreaksSupport).
+✗ [Our Channel](t.me/CyberStock).
+
 ✗ [Repository](github.com/swatv3nub/Hackfreaks)
 
-Maintained by @TheFuckErGuy
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="About Project Hackfreaks", url="https://t.me/ProjectHackfreaks"
+            text="Contact Owner", url="https://t.me/Roshan_xD"
         ),
         InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/MrHackfreaksRobot?startgroup=true"),
     ]
