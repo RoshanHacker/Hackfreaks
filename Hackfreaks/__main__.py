@@ -54,15 +54,14 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Pro group management bot, with some Special features.
  
-Hosted in Heroku with a SQLAlchemy Database,
+Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/indianbotupdate).
-✗ [Support Chat](t.me/indianbotsupport)
+✗ [Updates Channel](t.me/IndianBotUpdates).
+✗ [Support Group](t.me/IndianOfficialSupport).
 ✗ [Repository](github.com/swatv3nub/Hackfreaks)
-
-Maintained By @Roshan_xD
+Maintained by @TRoshan_xD
 Wanna Add me to your Group? Just click the button below!
 """
 
@@ -79,7 +78,6 @@ HELP_STRINGS = """
 Hello there! My name is *{}*.
 Have a look at the following for an idea of some of \
 the things I can help you with.
-
 *Main* commands available:
  ✗ /help: PM's you this message. 
  ✗ /help <module name>: PM's you info about that module.
@@ -87,8 +85,6 @@ the things I can help you with.
  ✗ /settings:
    ✗ in PM: will send you your settings for all supported modules.
    ✗ in a group: will redirect you to pm, with all that chat's settings.
-
-
 {}
 And the following:
 """.format(
@@ -197,21 +193,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Hackfreaks To Your Group🔥",
+                              text="🔥Add IndianBot To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="About Project Hackfreaks", 
+                              text="Our Dev", 
                               url="https://t.me/ProjectHackfreaks"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/HackfreaksSupport"),
+                              url=f"https://t.me/IndianOfficialSupport"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/HackfreaksUpdates")
+                              url="https://t.me/IndianBotUpdates")
                           ]])) 
     else:
         update.effective_message.reply_text(
