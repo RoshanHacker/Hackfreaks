@@ -2,7 +2,7 @@ from telethon import events
 from Indian robot import telethn
 
 """Triggers start command in pm and in groupchats"""
-def hackfreaksrobot(**args):
+def Indianofficialrobot(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
