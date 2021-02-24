@@ -58,9 +58,9 @@ Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](t.me/IndianBotUpdates).
-✗ [Support Group](t.me/IndianOfficialSupport).
-✗ [Repository](github.com/swatv3nub/Hackfreaks)
+✗ [Updates Channel](https://t.me/IndianBotUpdates).
+✗ [Support Group](https://t.me/IndianOfficialSupport).
+✗ [Repository](https://github.com/RoshanHacker/Indianrobot)
 Maintained by @TRoshan_xD
 Wanna Add me to your Group? Just click the button below!
 """
@@ -68,7 +68,7 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Our Dev", url="https://t.me/ProjectHackfreaks"
+            text="About Project Indianbot", url="https://t.me/IndianBotUpdates"
         ),
         InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/Indianofficial_Robot?startgroup=true"),
     ]
@@ -91,7 +91,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "telegra.ph/file/4538e359834b77487e88b.jpg"
+HACKFREAKS_IMG = "https://telegra.ph/file/f73dc95fa36192011a3cc.jpg"
 
 DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
 Since I am Hosted in Heroku with a Cheap Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
@@ -193,13 +193,13 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add IndianBot To Your Group🔥",
+                              text="🔥Add Indianbot To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="Our Dev", 
-                              url="https://t.me/ProjectHackfreaks"
+                              text="About Project Indianbot", 
+                              url="https://t.me/IndianBotUpdates"
         )],
                           [
                               InlineKeyboardButton(
