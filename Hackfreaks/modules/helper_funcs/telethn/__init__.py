@@ -1,4 +1,4 @@
-from Indian Official Robot import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES, telethn)
+from Hackfreaks import (DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES, telethn)
 
 IMMUNE_USERS = DRAGONS + WOLVES + DEMONS + TIGERS + DEV_USERS
 
