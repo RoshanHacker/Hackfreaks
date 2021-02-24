@@ -1,5 +1,5 @@
 from telethon import events
-from Hackfreaks import telethn
+from Hackfreaksrobot import telethn
 
 """Triggers start command in pm and in groupchats"""
 def Indianofficialrobot(**args):
