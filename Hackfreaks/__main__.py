@@ -193,21 +193,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Indianbot To Your Group🔥",
+                              text="🔥Add INDIANBOT To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="About Project Indianbot", 
-                              url="https://t.me/IndianBotUpdates"
+                              text="About This Bot", 
+                              url="https://t.me/indianbotupdate"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/IndianOfficialSupport"),
+                              url=f"https://t.me/indianofficialsupport"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/IndianBotUpdates")
+                              url="https://t.me/indianbotupdate")
                           ]])) 
     else:
         update.effective_message.reply_text(
