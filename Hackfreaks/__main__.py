@@ -58,19 +58,20 @@ Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
-✗ [Updates Channel](https://t.me/IndianBotUpdates).
-✗ [Support Group](https://t.me/IndianOfficialSupport).
-✗ [Repository](https://github.com/RoshanHacker/Indianrobot)
-Maintained by @TRoshan_xD
+✗ [Updates Channel](t.me/HackfreaksUpdates).
+✗ [Support Group](t.me/HackfreaksSupport).
+✗ [Repository](github.com/swatv3nub/Hackfreaks)
+
+Maintained by @Swonit
 Wanna Add me to your Group? Just click the button below!
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="About Project Indianbot", url="https://t.me/IndianBotUpdates"
+            text="About Project Hackfreaks", url="https://t.me/ProjectHackfreaks"
         ),
-        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/Indianofficial_Robot?startgroup=true"),
+        InlineKeyboardButton(text="Add Me to a group âž•", url="https://t.me/MrHackfreaksRobot?startgroup=true"),
     ]
 ]
 
@@ -78,6 +79,7 @@ HELP_STRINGS = """
 Hello there! My name is *{}*.
 Have a look at the following for an idea of some of \
 the things I can help you with.
+
 *Main* commands available:
  ✗ /help: PM's you this message. 
  ✗ /help <module name>: PM's you info about that module.
@@ -85,13 +87,15 @@ the things I can help you with.
  ✗ /settings:
    ✗ in PM: will send you your settings for all supported modules.
    ✗ in a group: will redirect you to pm, with all that chat's settings.
+
+
 {}
 And the following:
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "https://telegra.ph/file/f73dc95fa36192011a3cc.jpg"
+HACKFREAKS_IMG = "telegra.ph/file/4538e359834b77487e88b.jpg"
 
 DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
 Since I am Hosted in Heroku with a Cheap Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
@@ -120,7 +124,7 @@ for module_name in ALL_MODULES:
             "Can't have two modules with the same name! Please change one")
 
     if hasattr(imported_module, "__help__") and imported_module.__help__:
-         HELPABLE[imported_module.__mod_name__.lower()] = imported_module
+        HELPABLE[imported_module.__mod_name__.lower()] = imported_module
 
     # Chats to migrate on chat_migrated events
     if hasattr(imported_module, "__migrate__"):
@@ -193,21 +197,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add INDIANBOT To Your Group🔥",
+                              text="🔥Add Hackfreaks To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="About This Bot", 
-                              url="https://t.me/indianbotupdate"
+                              text="About Project Hackfreaks", 
+                              url="https://t.me/ProjectHackfreaks"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/indianofficialsupport"),
+                              url=f"https://t.me/HackfreaksSupport"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/indianbotupdate")
+                              url="https://t.me/HackfreaksUpdates")
                           ]])) 
     else:
         update.effective_message.reply_text(
