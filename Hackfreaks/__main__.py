@@ -199,8 +199,8 @@ def start(update: Update, context: CallbackContext):
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="My Owner", 
-                              url="https://t.me/Roshan_xD"
+                              text="Logs", 
+                              url="https://t.me/indianlogs"
         )],
                           [
                               InlineKeyboardButton(
