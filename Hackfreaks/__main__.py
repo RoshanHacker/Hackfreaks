@@ -54,7 +54,6 @@ PM_START_TEXT = """
 Hi {}, my name is {}! 
 I am a Pro group management bot, with some Special features.
  
-Hosted in Heroku with ElephantSQL Database,
 I Can make your group management fun and easy!
 Press or type /help to Get to know about my Modules
 ==========================
@@ -93,11 +92,11 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-HACKFREAKS_IMG = "telegra.ph/file/81d8a0a1b0f9e283dc244.jpg"
+HACKFREAKS_IMG = "https://telegra.ph/file/0cc6b0fa0354b8c9836b4.jpg"
 
-DONATE_STRING = """Hope You are Satisfied with Me. As of now I don't need any Donations
-Since I am Hosted in Heroku with a most affordable/Free Database add-on. If I need Some After Growing and Upgrading to a Faster and Advanced Hosting,
-I will update this String and also i will inform you all."""
+DONATE_STRING = """Hope You are Satisfied with Me. I don't need any Donations
+Since I am Hosted on Heroku with a most affordable/Free Database add-on. In future if we will upgrade to a faster and advanced hosting Then,
+we will accept donations."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -195,21 +194,21 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Newbie Manager Bot To Your Group🔥",
+                              text="🔥Add Indian Bot To Your Group🔥",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], [
                               InlineKeyboardButton(
-                              text="Join My Channel", 
-                              url="https://t.me/words_attack"
+                              text="My Owner", 
+                              url="https://t.me/Roshan_xD"
         )],
                           [
                               InlineKeyboardButton(
                               text="🍁Support Group🍁",
-                              url=f"https://t.me/newbiebots"),
+                              url=f"https://t.me/indianofficialsupport"),
                               InlineKeyboardButton(
                               text="✨Updates Channel✨",
-                              url="https://t.me/newbiebotu")
+                              url="https://t.me/indianbotupdate")
                           ]])) 
     else:
         update.effective_message.reply_text(
